@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: green;
+    color: white;
+    padding: 15px;
+    margin: 0;
+}
+
+.section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 60%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px grey;
+}
+
+input {
+    padding: 10px;
+    margin: 8px;
+    width: 200px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+#recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.recipe {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    width: 250px;
+    box-shadow: 0 3px 10px grey;
+    text-align: center;
+}
+
+.recipe img {
+    border-radius: 8px;
+    width: 100%;
+}
+
+.recipe h3 {
+    margin: 10px 0;
+    color: gray;
+}
+
+.recipe p {
+    font-size: 14px;
+    color: gray;
+}
